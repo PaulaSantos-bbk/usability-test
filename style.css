@@ -576,21 +576,23 @@ font-size: 1.13rem;
 }
 
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 390px) {
   nav ul {
     flex-direction: column;
     line-height: 2;
   }
 }
 
-@media screen and (max-width: 490px) {
+
+@media screen and (max-width: 390px) {
   nav ul {
     flex-direction: column;
     line-height: 2;
   }
 }
 
-@media screen and (max-width: 490px) {
+
+@media screen and (max-width: 390px) {
   h1 {
     font-size: 1.5rem; 
   }
@@ -600,10 +602,18 @@ font-size: 1.13rem;
   }
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 390px) {
   .shop-items {
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .cart-price {
+    font-size: 1rem;
+  }
+}
+
+
 
 
