@@ -663,8 +663,8 @@ font-size: 1.75em;
   }
 }
 
-@media screen and (min-width: 600px) {
-.cart-column {
-  display: flex;
-}
+@media screen and (max-width: 490px) {
+  .shop-items {
+    flex-direction: column;
+  }
 }
