@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Milestone1 from @PaulaSantos: HTML document with a form.">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Paula Angeriz-Santos">
+    <title>Paula Angeriz-Santos - Usability Test - Contact us</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About us</a></li>
+                <li><a href="./events.html">Events</a></li>
+                <li><a href="./publications.html">Publications store</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section></section>
+        <h1>Contact us</h1>
+
+        <h2 id="contact">Get in touch with us</h2>
+
+        <form action="/index.html" method="GET" class="form-example">
+            <div>
+                <label for="email">*Your email: </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="fname">*Your full name: </label>
+                <input type="text" name="fname" id="fname" required>
+            </div>
+            <div>
+                <label for="organisation">Your organisation (optional): </label>
+                <input type="text" name="organisation" id="organisation">
+            </div>
+            <h3>Tell us more about you:</h3>
+            <div>
+                <input id="student" type="radio" name="answer" value="student">
+                <label for="student">I'm a student</label>
+                <br>
+                <input id="academic" type="radio" name="answer" value="academic">
+                <label for="academic">I'm an academic</label>
+                <br>
+                <input id="lecturer" type="radio" name="answer" value="lecturer">
+                <label for="lecturer">I'm a lecturer</label>
+                <br>
+                <input id="researcher" type="radio" name="answer" value="researcher">
+                <label for="researcher">I'm a researcher</label>
+                <br>
+                <input id="other" type="radio" name="answer" value="other">
+                <label for="other">Other</label>
+                <br>
+                <label for="if-other">If 'Other', please specify: </label>
+                <input type="text" name="if-other" id="if-other">
+            </div>
+            <div>
+                <label for="comment">*Tell us what you think: </label>
+                <textarea rows="4" cols="50" name="comment" id="comment" required>Enter your comment here...</textarea>
+            </div>
+            <div>
+                <input id="submit" type="submit" value="Submit">
+            </div>
+        </form>
+
+
+        </section>
+    </main>
+    <script>
+        console.log('it works!')
+    </script>
+</body>
+
+</html>
