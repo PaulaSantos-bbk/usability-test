@@ -86,7 +86,7 @@ h1 {
   color: #000;
   font-size: 1.75rem;
   padding: 10px;
-  background: #e6e5df;
+  background: #f6a21d;
   opacity: 0.80;
 }
 
@@ -161,7 +161,12 @@ p a:active {
 }
 
 #button a:hover {
-  color: #fff; 
+  color: #000; 
+  text-decoration: underline;
+}
+
+#button:active {
+  color: #000; 
 }
 
 
