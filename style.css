@@ -614,6 +614,21 @@ font-size: 1.13rem;
   }
 }
 
+@include chrome-styles {
 
+  @media screen and (max-width: 390px) {
+    .cart-item-image {visibility: hidden;
+    }
+  }
+  
+}
 
+@include chrome-styles {
 
+  @media screen and (max-width: 390px) {
+    .cart-item-title {margin-left: 0em;
+      
+      }
+    }
+  }
+  
