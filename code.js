@@ -203,3 +203,15 @@ function updateCartTotal() {
     document.getElementsByClassName('cart-total-price')[0].innerText = '£' + total
 
 }
+
+
+
+function clearContents(element) {
+    element.value = '';
+}
+
+function FormJS() {
+    let jFirst = document.getElementById("fname").value;
+    alert("Thank you for getting in touch with us " + jFirst);
+}
+
