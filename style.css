@@ -30,6 +30,13 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+nav ul li a:active {
+  color: #000;
+  background-color: #d4d0ab;
+  text-decoration: none;
+  padding: 10px;
+}
+
 /* Add a black background color to the top navigation 
 .topnav {
   background-color: #333;
