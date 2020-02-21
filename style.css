@@ -455,7 +455,7 @@ font-size: 1rem;
 
 .cart-item-image {
 
-max-width: 100%;
+width: 100%;
 
 height: auto;
 
@@ -614,6 +614,7 @@ font-size: 1.13rem;
   }
 }
 
+/*
 @include chrome-styles {
 
   @media screen and (max-width: 390px) {
@@ -621,14 +622,15 @@ font-size: 1.13rem;
     }
   }
   
-}
+
 
 @include chrome-styles {
 
   @media screen and (max-width: 390px) {
-    .cart-item-title {margin-left: 0em;
+    .cart-item-title {margin-left: -5em;
       
       }
     }
   }
-  
+
+*/

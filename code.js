@@ -146,7 +146,7 @@ function addItemToCart(title, price, imageSrc) {
     
     <div class="cart-item cart-column">
     
-    <img class="cart-item-image" src="${imageSrc}" width="100" height="100">
+    
     
     <span class="cart-item-title">${title}</span>
     
